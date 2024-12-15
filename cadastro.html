@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Objeto Tema</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Área de Administração</h1>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav>
+        <ul>
+            <li><a href="loguin.html">Login</a></li>
+            <li><a href="cadastro.html">Cadastro de Objeto Tema</a></li>
+            <li><a href="usuarios.html">Cadastro de Usuários</a></li>
+            <li><a href="index.html">Voltar à Página Inicial</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main>
+        <h2>Cadastro/edição de Objeto Tema</h2>
+        <form action="#" method="POST">
+            <label for="nome_objeto">Nome do Objeto:</label>
+            <input type="text" id="nome_objeto" name="nome_objeto" required>
+
+            <label for="descricao_objeto">Descrição:</label>
+            <textarea id="descricao_objeto" name="descricao_objeto" required></textarea>
+
+            <button type="submit">Salvar</button>
+        </form>
+
+        <h3>Objetos Cadastrados</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome do Objeto</th>
+                    <th>Descrição</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Objeto 1</td>
+                    <td>Descrição do Objeto 1</td>
+                    <td>
+                        <button>Editar</button>
+                        <button>Apagar</button>
+                    </td>
+                </tr>
+                <!-- Adicione mais objetos conforme necessário -->
+            </tbody>
+        </table>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Autor: Julianna Ramos <a href="sobre.html">Sobre o Autor</a></p>
+    </footer>
+
+</body>
+</html>
